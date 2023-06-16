@@ -23,7 +23,7 @@ The directory structure of `shapes` is:
     └── test_shapes.py
 ```
 
-Note that the two empty files `src/__init__.py` and `tests/__init__.py` are important.
+Note that the three empty files `src/__init__.py`, `tests/__init__.py`, and `src/misc/__init__.py` are important.
 
 
 ## The Original Code
