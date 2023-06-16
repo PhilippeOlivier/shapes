@@ -1,3 +1,7 @@
+from src import sphere
+from src.misc import something
+
+
 def rectangle_area(w, h):
     """Return the area of a rectangle."""
     return w * h

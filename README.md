@@ -10,10 +10,15 @@ The directory structure of `shapes` is:
 ```text
 [user@machine shapes]$ tree
 .
+├── #README.md#
 ├── README.md
 ├── src
 │   ├── __init__.py
+│   ├── misc
+│   │   ├── __init__.py
+│   │   └── something.py
 │   ├── shapes.py
+│   └── sphere.py
 └── tests
     ├── __init__.py
     └── test_shapes.py
@@ -44,6 +49,11 @@ class TestSomething(unittest.TestCase):
     def test_second_thing(self):
         # Test the second thing here
 ```
+
+
+## Imports Examples
+
+Take a look at the imports found in `src/shapes.py` and `tests/test_shapes.py` to see how imports work in the context of `unittest`.
 
 
 # Running the Tests
