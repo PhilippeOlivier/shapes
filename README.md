@@ -10,7 +10,6 @@ The directory structure of `shapes` is:
 ```text
 [user@machine shapes]$ tree
 .
-├── #README.md#
 ├── README.md
 ├── src
 │   ├── __init__.py
